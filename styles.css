@@ -1,0 +1,75 @@
+.bg{
+    background-color: rgb(211, 171, 165);
+    height:100vh;
+
+}
+.winmsgcontain{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:10px;
+
+}
+.gamecontain{
+    height: 100vh;
+    width:100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.hide{
+    display: none;
+}
+
+.head{
+    color:black;
+    font-family:checkmark;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.newgamebtn{
+
+    background-color:rgb(223, 102, 10);
+    color:rgb(16, 1, 1);
+    border-width: 0px;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.box{
+    height:70px;
+    width:70px;
+    background-color: rgba(231, 108, 14, 0.19);
+    color:black;
+    border-radius: 10px ;
+    font-size: 40px;
+    margin: 3px;
+    border-width: 0px;
+}
+
+.resetgamebtn{
+    background-color:rgb(223, 102, 10);
+    color:rgb(16, 1, 1);
+    border-width: 0px;
+    border-radius: 15px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family:serif;
+    font-weight: bold;
+    margin-bottom: 25px;
+}
+.X{
+    color:rgb(102, 9, 9)
+}
+.O{
+    color:green
+}
